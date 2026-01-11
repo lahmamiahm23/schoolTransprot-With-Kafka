@@ -1,0 +1,56 @@
+# Backend - Java/Spring
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+hs_err_pid*.log
+replay_pid*.log
+/bin/
+/.settings/
+/.classpath
+/.project
+/.metadata/
+/.gradle/
+/build/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.DS_Store
+*.swp
+
+# Frontend React
+transport-frontend/node_modules/
+transport-frontend/.env.local
+transport-frontend/.env.development.local
+transport-frontend/.env.test.local
+transport-frontend/.env.production.local
+transport-frontend/npm-debug.log*
+transport-frontend/yarn-debug.log*
+transport-frontend/yarn-error.log*
+transport-frontend/.eslintcache
+transport-frontend/coverage/
+transport-frontend/.next/
+transport-frontend/dist/
+transport-frontend/build/
+transport-frontend/.cache/
+transport-frontend/.parcel-cache/
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
